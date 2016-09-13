@@ -1,0 +1,46 @@
+{   // Set Syntax to JavaScript for correct coloring in Caret
+// Theme
+    "defaultTheme": "github",
+    "uiTheme": "light",
+// Editor
+    "cursorStyle": "slim",
+    "fontFamily": "",
+    "fontSize": 14,
+    "immersiveFullscreen": true,
+    "showNewTabButton": false,
+// Text Area
+    "showWhitespace": true,
+    "highlightLine": false,
+    "hideGutter": false,
+    "showMargin": true,
+    "wordWrap": true,
+    "wrapLimit": false,
+    "scrollPastEnd": true,
+// Indentation, Line Endings
+    "indentation": 4,
+    "useTabs": false,
+    "lineEndings": "auto",
+// Auto-Complete, Workers
+    "autocomplete": true,
+    "autocompleteLive": false,
+    "disableBehaviors": false,
+    "useWorker": true,
+// Project
+    "autoHideProject": false,
+    "showHiddenDirectories": false,
+    "ignoreFiles":
+        "(migrations)|(__pycache__)|(__init__.py)|(db.sqlite3)|(caret_project)",
+// Searching
+    "searchAllFiles": false,
+    "maxSearchMatches": 50,
+// Save Options
+    "trimTrailingWhitespace": true,
+    "trimEmptyLines": false,
+    "autosaveInterval": 0,
+    "autosaveOnBlur": false,
+// Check for Updates on Startup
+    "promptForUpdates": true,
+// Misc
+    "disableReload": false,
+    "emulateVim": false
+}

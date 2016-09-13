@@ -1,0 +1,61 @@
+{   // Set Syntax to JavaScript for correct coloring in Caret
+// Caret
+    "Ctrl-Q": "app:exit",
+    "Ctrl-P": "editor:print",
+    "Ctrl--": { "command": "editor:adjust-zoom", "argument": -1 },
+    "Ctrl-=": { "command": "editor:adjust-zoom", "argument": 1 },
+    "Ctrl-0": { "command": "editor:default-zoom" },
+// Files
+    "Ctrl-N": "session:new-file",
+    "Ctrl-O": "session:open-file",
+    "Ctrl-W": "session:close-tab",
+    "Ctrl-S": "session:save-file",
+    "Ctrl-Shift-S": "session:save-file-as",
+// Project
+    "Ctrl-R": "project:refresh-dir",
+// Tabs
+    "Ctrl-Tab": "session:change-tab",
+    "Ctrl-Shift-Tab": { "command": "session:change-tab", "argument": -1 },
+// Autocorrect
+    "Ctrl-Space": { "ace": "startAutocomplete" },
+// Multi-Line
+    "Ctrl-Up": { "ace": "addCursorAbove" },
+    "Ctrl-Down": { "ace": "addCursorBelow" },
+// Move Lines
+    "Ctrl-Shift-Up": { "ace": "movelinesup" },
+    "Ctrl-Shift-Down": { "ace": "movelinesdown" },
+// Select/Highlighting
+    "Ctrl-Shift-M": { "command": "sublime:expand-to-matching" },
+    "Ctrl-D": "sublime:select-or-more-after",
+    "Ctrl-L": { "ace": "expandtoline" },
+// Goto
+    "Ctrl-M": { "ace": "jumptomatching" },
+    "Ctrl-G": { "command": "palette:open", "argument": "line" }
+// Macros
+    // "Ctrl-Q": { "command": "ace:togglemacro" },
+    // "Ctrl-Shift-Q": { "ace": "replaymacro" },
+// Palette
+    // "Ctrl-P": { "command": "palette:open" },
+    // "Ctrl-Shift-P": { "command": "palette:open", "argument": "command" },
+// Navigation
+    // "Ctrl-Home": { "ace": "gotostart" },
+    // "Ctrl-End": { "ace": "gotoend" },
+    // "Ctrl-PageUp": { "ace": "gotostart" },
+    // "Ctrl-PageDown": { "ace": "gotoend" },
+    // "Alt-PageDown": { "ace": "gotopagedown" },
+    // "PageDown": { "ace": "gotopagedown" },
+    // "Alt-PageUp": { "ace": "gotopageup" },
+    // "PageUp": {"ace": "gotopageup" },
+    // "Alt-Home": { "ace": "gotolinestart" },
+    // "Home": { "ace": "gotolinestart" },
+    // "Alt-End": { "ace": "gotolineend" },
+    // "End": { "ace": "gotolineend" },
+// Other
+    // "Alt-Q": "sublime:wrap",
+    // "Ctrl-Shift-F": { "command": "searchbar:show-project-search" },
+    // "Ctrl-J": { "ace": "joinlines" },
+    // "Ctrl-R": { "command": "palette:open", "argument": "reference" },
+// Dev Mode
+    // "Ctrl-Shift-M": "sequence:test",
+    // "Ctrl-.": { "command": "app:show-prompt" }
+}
