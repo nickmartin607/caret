@@ -1,4 +1,9 @@
 {   // Set Syntax to JavaScript for correct coloring in Caret
+// Unset Defaults
+    "Ctrl-Shift-P": "",
+    "Ctrl-Shift-Q": "",
+    "Ctrl-Shift-E": "",
+    "Ctrl-J": "",
 // Caret
     "Ctrl-Q": "app:exit",
     "Ctrl-P": "editor:print",
@@ -10,9 +15,12 @@
     "Ctrl-O": "session:open-file",
     "Ctrl-W": "session:close-tab",
     "Ctrl-S": "session:save-file",
+    "Ctrl-Shift-J": "sequence:save-file",
     "Ctrl-Shift-S": "session:save-file-as",
 // Project
     "Ctrl-R": "project:refresh-dir",
+    "Ctrl-Shift-O": "project:open",
+    "Ctrl-Shift-W": "project:clear",
 // Tabs
     "Ctrl-Tab": "session:change-tab",
     "Ctrl-Shift-Tab": { "command": "session:change-tab", "argument": -1 },
@@ -30,7 +38,7 @@
     "Ctrl-L": { "ace": "expandtoline" },
 // Goto
     "Ctrl-M": { "ace": "jumptomatching" },
-    "Ctrl-G": { "command": "palette:open", "argument": "line" }
+    "Ctrl-G": { "command": "palette:open", "argument": "line" },
 // Macros
     // "Ctrl-Q": { "command": "ace:togglemacro" },
     // "Ctrl-Shift-Q": { "ace": "replaymacro" },
@@ -56,6 +64,6 @@
     // "Ctrl-J": { "ace": "joinlines" },
     // "Ctrl-R": { "command": "palette:open", "argument": "reference" },
 // Dev Mode
-    // "Ctrl-Shift-M": "sequence:test",
-    // "Ctrl-.": { "command": "app:show-prompt" }
+    // "Ctrl-Shift-M": "sequence:test"
+    "Ctrl-.": { "command": "app:show-prompt" }
 }
